@@ -73,7 +73,6 @@ export default class Header extends Component {
       <MainHeader>
                <GoudaName><h1>Gouda Clark</h1>
                <h4>Full Stack Web Developer</h4>
-               <p>GoudaClark@ATLGouda.com</p>
                </GoudaName>
 
                <GoudaImage src="https://i.imgur.com/Y6EXoI0.jpg?1" />

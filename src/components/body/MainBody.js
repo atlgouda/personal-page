@@ -57,6 +57,7 @@ function CenteredGrid(props) {
           <p><a className='linkpage' target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/gouda-clark/'>LinkedIn</a></p>
           <p><a className='linkpage' target="_blank" rel="noopener noreferrer" href='https://twitter.com/ATLGouda'>Twitter</a></p>
           <p><a className='linkpage' target="_blank" rel="noopener noreferrer" href="https://github.com/atlgouda">Github</a></p>
+          <p><a href="mailto:goudaclark@atlgouda.com">Email</a></p>
           </Paper>
         </Grid>
 
