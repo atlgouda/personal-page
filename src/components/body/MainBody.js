@@ -16,7 +16,7 @@ const GridDiv = styled.div`
 `
 const BodyDiv = styled.div`
   background-color: #45ADA8;
-  height: 50vh;
+  height: 55vh;
 
 `
 
