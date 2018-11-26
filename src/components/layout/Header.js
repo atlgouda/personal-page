@@ -25,7 +25,14 @@ const MainHeader = styled.div`
 
 const GoudaName = styled.div`
     float: left;
-    padding-left: 15%;
+    background-color: white;
+    opacity: .7;
+    margin-left:  5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    border: 5px solid rgba(0, 0, 0, .2);
+    /* margin: 0 20%; */
+    padding-left: 5%;
     padding-right: 5%;
     font-size: 25px;
     >h4 {
@@ -33,6 +40,7 @@ const GoudaName = styled.div`
     };
     @media (max-width: 800px) {
     padding-left: 0;
+    border: 2px solid rgba(0, 0, 0, .2);
     padding-right: 0;
     text-align: center;
     float: none;
@@ -42,13 +50,15 @@ const GoudaName = styled.div`
 
 const GoudaImage = styled.img`
   float: right;
-  margin-right: 15%;
+  margin-right: 10%;
   border-radius: 20px;
+  border: 8px solid rgba(255, 255, 255, .5);
   width: 30vw;
   max-width: 250px;
   min-width: 150px;
   @media (max-width: 808px) {
     margin-right: 0;
+    border: 4px solid rgba(255, 255, 255, .5);
     float: none;
     text-align: center;
     max-width: 150px;
@@ -65,7 +75,7 @@ export default class Header extends Component {
                <h4>Full Stack Web Developer</h4>
                </GoudaName>
 
-               <GoudaImage src="https://i.imgur.com/2qp4xegb.jpg" />
+               <GoudaImage src="https://i.imgur.com/Y6EXoI0.jpg?1" />
                <br></br>
               
       </MainHeader>
